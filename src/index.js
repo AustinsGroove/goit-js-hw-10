@@ -123,7 +123,9 @@ font-weight: bold;
 }
 .image-box {
 display: flex;
-  width: 50vw;
+  width: 20vw;
+  flex-shrink: 0;
+  flex-grow: 0;
   align-items: center;
   align-content: center;
   jujustify-content: center;
